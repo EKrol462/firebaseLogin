@@ -1,7 +1,7 @@
+import 'package:firebase_login/app/sign_in/register_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_login/common_widgets/custom_ElevatedButton.dart';
 import 'log_in_page.dart';
-
 
 class mainPage extends StatelessWidget {
   @override
@@ -38,7 +38,7 @@ class mainPage extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => LoginPage()),
+                        MaterialPageRoute(builder: (context) => RegisterPage()),
                       );
                     }),
               ]),
@@ -46,7 +46,7 @@ class mainPage extends StatelessWidget {
   }
 
 //TODO: change widget from method into class for performance increase
-
+/*
   Widget _buildContent() {
     return Padding(
         padding: EdgeInsets.all(16.0), //padding widget
@@ -84,8 +84,8 @@ class mainPage extends StatelessWidget {
                 onPressed: () {},
               )
             ]));
-  }
-}
+  } */
+} 
 
 /*
 
